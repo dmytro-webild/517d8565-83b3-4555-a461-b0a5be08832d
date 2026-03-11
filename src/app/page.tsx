@@ -20,7 +20,7 @@ export default function LandingPage() {
       borderRadius="soft"
       contentWidth="smallMedium"
       sizing="largeSmallSizeMediumTitles"
-      background="grid"
+      background="circleGradient"
       cardStyle="solid"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="radial-glow"
@@ -73,7 +73,7 @@ export default function LandingPage() {
             { text: "View Demo", href: "#" }
           ]}
           buttonAnimation="slide-up"
-          background={{ variant: "grid" }}
+          background={{ variant: "glowing-orb" }}
           useInvertedBackground={false}
         />
       </div>
@@ -227,7 +227,7 @@ export default function LandingPage() {
           inputPlaceholder="your@email.com"
           buttonText="Subscribe"
           termsText="We respect your privacy. Unsubscribe anytime. No spam, just valuable insights."
-          background={{ variant: "grid" }}
+          background={{ variant: "plain" }}
           useInvertedBackground={false}
         />
       </div>
