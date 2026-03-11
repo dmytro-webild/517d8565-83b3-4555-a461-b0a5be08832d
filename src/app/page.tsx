@@ -87,20 +87,20 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           features={[
             {
-              icon: Wand2,
-              title: "AI Prompt Enhancement",              description: "Enter a simple idea like 'cute cat' and our AI transforms it into detailed design prompts optimized for quality sticker generation."
-            },
-            {
-              icon: Image,
-              title: "Multi-Style Generation",              description: "Create 4-8 unique designs in different styles: cute, anime, minimal, cartoon, typography, and meme—all from one prompt."
-            },
-            {
               icon: Layers,
               title: "Print-Ready Output",              description: "Get 3000x3000 PNG files with transparent backgrounds, white outlines, and 300 DPI quality certified for professional printing."
             },
             {
+              icon: Wand2,
+              title: "AI Prompt Enhancement",              description: "Enter a simple idea like 'cute cat' and our AI transforms it into detailed design prompts optimized for quality sticker generation."
+            },
+            {
               icon: Tag,
               title: "Auto SEO Generation",              description: "Instantly generate optimized titles, 15 SEO tags, and descriptions tailored for Redbubble, TeePublic, and other marketplaces."
+            },
+            {
+              icon: Image,
+              title: "Multi-Style Generation",              description: "Create 4-8 unique designs in different styles: cute, anime, minimal, cartoon, typography, and meme—all from one prompt."
             },
             {
               icon: Download,
